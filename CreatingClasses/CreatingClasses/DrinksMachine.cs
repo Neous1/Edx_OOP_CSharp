@@ -13,15 +13,14 @@ namespace CreatingClasses
         public string _model;
 
         // The following stattements declasre plucblck mehtods 
-        public void MakeCappicino()
+        public void MakeCappucino()
         {
-            //Method logi goes here
+            Console.WriteLine("Cappucino is ready");
         }
 
         public void MakeEsspressso()
         {
-            
-            //Method logic goe here
+            //Method logi goes here
         }
     }
 }
