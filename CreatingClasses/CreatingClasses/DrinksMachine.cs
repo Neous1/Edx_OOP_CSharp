@@ -25,6 +25,32 @@ namespace CreatingClasses
             }
         }
 
+        public string Make
+        {
+            get
+            {
+                return _make;
+            }
+
+            set
+            {
+                _make = value;
+            }
+        }
+
+        public string Model
+        {
+            get
+            {
+                return _model;
+            }
+
+            set
+            {
+                _model = value;
+            }
+        }
+
         // The following stattements declasre plucblck mehtods 
         public void MakeCappucino()
         {
