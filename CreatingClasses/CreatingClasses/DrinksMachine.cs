@@ -51,6 +51,13 @@ namespace CreatingClasses
             }
         }
 
+        public DrinksMachine(string loc, string make, string model)
+        {
+            this.Location = loc;
+            this.Make = make;
+            this.Model = model;
+        }
+      
         // The following stattements declasre plucblck mehtods 
         public void MakeCappucino()
         {
