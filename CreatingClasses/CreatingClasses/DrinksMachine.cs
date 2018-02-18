@@ -8,9 +8,22 @@ namespace CreatingClasses
 {
     class DrinksMachine
     {
-        public string _location;
-        public string _make;
-        public string _model;
+        private string _location;
+        private string _make;
+        private string _model;
+
+        public string Location
+        {
+            get
+            {
+                return _location;
+            }
+
+            set
+            {
+                _location = value;
+            }
+        }
 
         // The following stattements declasre plucblck mehtods 
         public void MakeCappucino()
