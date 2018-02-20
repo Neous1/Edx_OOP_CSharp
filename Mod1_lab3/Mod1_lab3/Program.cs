@@ -4,19 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mod1_Lab2
+namespace Mod1_lab3
 {
-    // Declaring the Car() Class
-    // This class has 3 properties: Color, Year, and Mileage
-    public class Car
-    {
-        
-    }
+
     class Program
     {
         static void Main(string[] args)
         {
-
             Car Car1 = new Car();
 
             Car1.Color = "White";
